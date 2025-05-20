@@ -4,7 +4,7 @@ let gramatica = {
     mensaje: ["<intro> <conector> <argumento>"],
     intro: ["La ley integral trans es importante para la <seccion>"],
     conector: ["de las personas trans porque"],
-    seccion: ["salud", "educación", "deporte", "identidad", "vivienda"],
+    seccion: ["salud", "educación", "vida", "identidad", "vivienda"],
     argumento: [
       "reconoce legalmente su identidad, fomentando el respeto y la inclusión social en todos los ámbitos vitales.",
       "elimina barreras sistémicas, facilitando el acceso a oportunidades y servicios esenciales para una vida digna.",
