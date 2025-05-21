@@ -17,9 +17,3 @@ let gramatica = {
   let texto = aventura.fijarGramatica(gramatica).probarGramatica(gramatica).expandirGramatica('base');
 
   console.log(texto);
-
-  aventura.cargarJSON("./modelo.json").then(gramatica => {
-    aventura.fijarIgrama(gramatica);
-    let capas = aventura.expandirIgrama("base");
-    aventura.mostrarIgrama(capas, "png", memeShower);
-  });
