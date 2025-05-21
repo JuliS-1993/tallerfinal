@@ -1,0 +1,390 @@
+{
+  "Escena_1_El_Umbral_de_los_Susurros": {
+    "text": "El aire vibra con magia inquieta. Finn está al borde del Bosque Hueco, donde los árboles se retuercen y su corteza sangra sombras. El viento gime: \"Entra, hijo de la oscuridad...\" ¿Qué hace Finn?",
+    "display": {
+      "x": 818,
+      "y": 275
+    },
+    "options": [
+      {
+        "btn": "Avanzar, tentado por el llamado.",
+        "scene": "Escena_2_La_Llamada_de_la_Oscuridad"
+      },
+      {
+        "btn": "Invocar un escudo protector, desconfiado.",
+        "scene": "Escena_3_Senales_y_Advertencias"
+      },
+      {
+        "btn": "Retirarse—algunos secretos no valen la pena.",
+        "scene": "Escena_4_Final_–_Huida"
+      }
+    ]
+  },
+  "Escena_2_La_Llamada_de_la_Oscuridad": {
+    "text": "Finn entra al bosque. Las sombras se arrastran hacia sus pezuñas, y las voces se vuelven claras: \"Libéranos...\" Al frente, un charco de oscuridad líquida gira en el corazón del bosque.\n¿Qué hace Finn?",
+    "display": {
+      "x": 187,
+      "y": 509
+    },
+    "options": [
+      {
+        "btn": "Tocar el charco, buscando respuestas.",
+        "scene": "Escena_5_Las_Profundidades_Oscuras"
+      },
+      {
+        "btn": "Invocar una daga de sombra, listo para luchar.",
+        "scene": "Escena_6_Batalla_en_las_Sombras"
+      },
+      {
+        "btn": "Cantar una canción tradicional del Feywild para calmar las voces.",
+        "scene": "Escena_7_La_Cancion_Perdida"
+      }
+    ]
+  },
+  "Escena_3_Senales_y_Advertencias": {
+    "text": "Finn dibuja un sigilo en el aire, y un escudo brillante lo protege. Las sombras retroceden, pero no antes de que vea una figura entre los árboles: una bruja del crepúsculo, sonriendo con malicia. ¿Qué hace Finn?",
+    "display": {
+      "x": 879,
+      "y": 734
+    },
+    "options": [
+      {
+        "btn": "Exigirle explicaciones.",
+        "scene": "Escena_8_La_Politica_Fey"
+      },
+      {
+        "btn": "Atacarla con un rayo de sombra.",
+        "scene": "Escena_9_Traicion_y_Sombras"
+      },
+      {
+        "btn": "Huir—esto es demasiado peligroso.",
+        "scene": "Escena_4_Final_–_Huida"
+      }
+    ]
+  },
+  "Escena_4_Final_–_Huida": {
+    "text": "Finn se retira. Los susurros del bosque se desvanecen, pero la corrupción permanece. (Quizás la próxima vez regrese más preparado...)\nFIN",
+    "display": {
+      "x": 1665,
+      "y": 670
+    }
+  },
+  "Escena_5_Las_Profundidades_Oscuras": {
+    "text": "Finn hunde su mano en el charco—un dolor helado lo recorre. Visiones lo inundan: una dríada encadenada por sombras, prisionera de la bruja. La dríada suplica: \"¡Destruye su talismán!\" ¿Qué hace Finn?",
+    "display": {
+      "x": 243,
+      "y": 918
+    },
+    "options": [
+      {
+        "btn": "Sumergirse en el charco, buscando el talismán.",
+        "scene": "Escena_10_El_Corazon_del_Talisman"
+      },
+      {
+        "btn": "Retirarse y buscar aliados.",
+        "scene": "Escena_11_Final_–_Demora"
+      }
+    ]
+  },
+  "Escena_6_Batalla_en_las_Sombras": {
+    "text": "¡Las sombras se convierten en garras! Finn corta con su daga, pero una risa de bruja resuena: \"¡Tonto sátiro!\" Un mastín de las sombras emerge y ataca! ¿Qué hace Finn?",
+    "display": {
+      "x": 833,
+      "y": 987
+    },
+    "options": [
+      {
+        "btn": "Luchar con la daga.",
+        "scene": "Escena_12_Fuerza_contra_Sombra"
+      },
+      {
+        "btn": "Usar magia para escapar.",
+        "scene": "Escena_2_La_Llamada_de_la_Oscuridad"
+      },
+      {
+        "btn": "Usar su magia para desaparecer y emboscar a la bruja.",
+        "scene": "Escena_13_La_Emboscada_del_Satiro"
+      }
+    ]
+  },
+  "Escena_7_La_Cancion_Perdida": {
+    "text": "Finn canta una melodía antigua de los sátiros. Las sombras dudan... una dríada prisionera responde con un susurro: \"Eres de la Corte del Verano... ¿viniste a ayudarme?\" ¿Qué hace Finn?",
+    "display": {
+      "x": 1595,
+      "y": 1009
+    },
+    "options": [
+      {
+        "btn": "Prometer liberarla.",
+        "scene": "Escena_14_Promesa_de_Libertad"
+      },
+      {
+        "btn": "Preguntarle por qué la bruja la capturó.",
+        "scene": "Escena_15_Secretos_del_Invierno"
+      }
+    ]
+  },
+  "Escena_8_La_Politica_Fey": {
+    "text": "La bruja se ríe: \"La Corte del Invierno me pagó bien por esta dríada. ¿O acaso la Corte del Verano te envió, pequeño sátiro?\" ¿Qué hace Finn?",
+    "display": {
+      "x": 356,
+      "y": 1291
+    },
+    "options": [
+      {
+        "btn": "Negociar—ofrecer algo a cambio.",
+        "scene": "Escena_16_Trato_Peligroso"
+      },
+      {
+        "btn": "Atacar—no confía en sus mentiras.",
+        "scene": "Escena_9_Traicion_y_Sombras"
+      }
+    ]
+  },
+  "Escena_9_Traicion_y_Sombras": {
+    "text": "Finn lanza un hechizo, pero la bruja se desvanece en humo. ¡Era una ilusión! La verdadera bruja está detrás de él, con un puñal envenenado. ¿Qué hace Finn?",
+    "display": {
+      "x": 929,
+      "y": 1277
+    },
+    "options": [
+      {
+        "btn": "Usar Paso Brumoso para escapar.",
+        "scene": "Escena_17_Escape_Astuto"
+      },
+      {
+        "btn": "Contraatacar con todo su poder.",
+        "scene": "Escena_18_El_Contraataque"
+      }
+    ]
+  },
+  "Escena_10_El_Corazon_del_Talisman": {
+    "text": "Finn se sumerge en la oscuridad. Allí, flotando, está un talismán de obsidiana. Las sombras lo rodean, susurrando secretos olvidados. ¿Qué hace Finn?",
+    "display": {
+      "x": 1570,
+      "y": 1299
+    },
+    "options": [
+      {
+        "btn": "Destruirlo con magia.",
+        "scene": "Escena_19_Liberacion"
+      },
+      {
+        "btn": "Tomarlo para estudiarlo.",
+        "scene": "Escena_20_Final__Poder_Corrupto"
+      }
+    ]
+  },
+  "Escena_11_Final_–_Demora": {
+    "text": "Finn regresa con refuerzos, pero el Bosque Hueco ya está sellado. La bruja y la dríada han desaparecido. (¿Fue demasiado tarde?)\n\nFIN",
+    "display": {
+      "x": 355,
+      "y": 1576
+    }
+  },
+  "Escena_12_Fuerza_contra_Sombra": {
+    "text": "El mastín de las sombras ataca con colmillos brillantes. Finn canaliza su magia oscura en su daga y le da una estocada firme. El mastín se desintegra, pero las sombras lastiman a Finn. ¿Qué hace Finn?",
+    "display": {
+      "x": 997,
+      "y": 1562
+    },
+    "options": [
+      {
+        "btn": "Seguir adelante.",
+        "scene": "Escena_5_Las_Profundidades_Oscuras"
+      },
+      {
+        "btn": "Regresar al umbral",
+        "scene": "Escena_1_El_Umbral_de_los_Susurros"
+      }
+    ]
+  },
+  "Escena_13_La_Emboscada_del_Satiro": {
+    "text": "Finn se desmaterializa en sombras y reaparece tras la bruja. Ella susurra: \"La Corte del Invierno te ofrecería más que la ingrata Corte del Verano...\" ¿Qué hace Finn?",
+    "display": {
+      "x": 1697,
+      "y": 1577
+    },
+    "options": [
+      {
+        "btn": "Aceptar negociar, fingiendo interés.",
+        "scene": "Escena_16_Trato_Peligroso"
+      },
+      {
+        "btn": "Atacar con un Rayo de la Noche.",
+        "scene": "Final_6_Heroe_del_Verano"
+      }
+    ]
+  },
+  "Escena_14_Promesa_de_Libertad": {
+    "text": "La dríada llora: \"La bruja robó mi nombre para controlarme. Si lo recuperas, podré sanar el bosque.\" ¿Qué hace Finn?",
+    "display": {
+      "x": 153,
+      "y": 1808
+    },
+    "options": [
+      {
+        "btn": "Jurar recuperar su nombre, arriesgándose.",
+        "scene": "Final_X__Nombrame"
+      },
+      {
+        "btn": "Pedir una recompensa de la Corte del Verano primero.",
+        "scene": "Final_4_Mercenario_Despreciado"
+      }
+    ]
+  },
+  "Escena_15_Secretos_del_Invierno": {
+    "text": "La dríada explica: \"La bruja sirve a la Princesa de Escarcha. Quieren debilitar al Verano usando este bosque. Ese es el plan de la Corte del Invierno.\" ¿Qué hace Finn?",
+    "display": {
+      "x": 933,
+      "y": 1799
+    },
+    "options": [
+      {
+        "btn": "Ofrecerse para sabotear los planes de la Corte del Invierno.",
+        "scene": "Escena_14_Promesa_de_Libertad"
+      },
+      {
+        "btn": "Exigir pruebas antes de actuar.",
+        "scene": "Escena_6_Batalla_en_las_Sombras"
+      }
+    ]
+  },
+  "Escena_16_Trato_Peligroso": {
+    "text": "La bruja propone: \"Devuélveme el talismán, y te daré el nombre de la dríada... o sírvenme y obtendrás poder.\" ¿Qué hace Finn?",
+    "display": {
+      "x": 1614,
+      "y": 1876
+    },
+    "options": [
+      {
+        "btn": "Fingir aceptar e intentar robarla.",
+        "scene": "Escena_20_Final__Poder_Corrupto"
+      },
+      {
+        "btn": "Rechazar y amenazar con exponerla al Verano.",
+        "scene": "Final_8_Equilibrio_del_Engano_"
+      }
+    ]
+  },
+  "Escena_17_Escape_Astuto": {
+    "text": "Finn usa Paso Brumoso para escapar, pero la bruja grita: \"¡El bosque ya está condenado!\". En su huida, Finn encuentra un espejo feérico que muestra el futuro. ¿Qué hace Finn?",
+    "display": {
+      "x": 182,
+      "y": 2110
+    },
+    "options": [
+      {
+        "btn": "Romper el espejo—ignorar las profecías.",
+        "scene": "Final_XX__Nueva_aventura_desbloqueada"
+      },
+      {
+        "btn": "Consultar el espejo para encontrar el talismán.",
+        "scene": "Escena_10_El_Corazon_del_Talisman"
+      }
+    ]
+  },
+  "Escena_18_El_Contraataque": {
+    "text": "Finn canaliza toda su magia en un Núcleo de Oscuridad, pero el talismán responde, ofreciéndole poder ilimitado a cambio de su libertad. ¿Qué hace Finn?",
+    "display": {
+      "x": 940,
+      "y": 2059
+    },
+    "options": [
+      {
+        "btn": "Aceptar el poder y destruir a la bruja.",
+        "scene": "Final_5_Oscuridad_Justiciera"
+      },
+      {
+        "btn": "Resistir, confiando en su propia fuerza.",
+        "scene": "Final_8_Equilibrio_del_Engano_"
+      }
+    ]
+  },
+  "Intro_Sombras_del_Bosque_Hueco": {
+    "text": "En lo profundo del Feywild, el Bosque Hueco—un lugar donde las sombras susurran—ha sido corrompido. Eres Finn, el Sátiro (Hechicero de las Sombras). Atraído por este llamado, Finn debe descubrir su secreto antes de que la oscuridad infecte las Cortes de los Faunos.",
+    "display": {
+      "x": 1038,
+      "y": 23
+    },
+    "options": [
+      {
+        "btn": "Personificar a Finn el Sátiro",
+        "scene": "Escena_1_El_Umbral_de_los_Susurros"
+      }
+    ]
+  },
+  "Escena_20_Final__Poder_Corrupto": {
+    "text": "Finn se deja corromper por el talismán. \"¿El fin justifica las sombras?\"",
+    "display": {
+      "x": 443,
+      "y": 2442
+    }
+  },
+  "Escena_19_Liberacion": {
+    "text": "Finn destruye el talismán. La dríada es libre.",
+    "display": {
+      "x": 1648,
+      "y": 2121
+    },
+    "options": [
+      {
+        "btn": "Aceptar la gratitud.",
+        "scene": "Final_X__Nombrame"
+      },
+      {
+        "btn": "Rechazar y huir.",
+        "scene": "Escena_21_Final__Espiritu_Libre"
+      }
+    ]
+  },
+  "Escena_21_Final__Espiritu_Libre": {
+    "text": "Finn se funde con el bosque, burlándose de ambas Cortes. \"Las sombras son mi único aliado.\"",
+    "display": {
+      "x": 977,
+      "y": 2571
+    }
+  },
+  "Final_4_Mercenario_Despreciado": {
+    "text": "La Corte del Verano lo rechaza por avaro; Finn vaga solo. \"El oro feérico nunca brilla.\"",
+    "display": {
+      "x": 1445,
+      "y": 2573
+    }
+  },
+  "Final_6_Heroe_del_Verano": {
+    "text": "La bruja desaparece aparentemente destruida y la Corte del Verano lo honra, pero Finn rechaza el título que le orfecen. \"Prefiero ser libre que príncipe.\"",
+    "display": {
+      "x": 1960,
+      "y": 2309
+    }
+  },
+  "Final_5_Oscuridad_Justiciera": {
+    "text": "Finn usa el talismán para encerrar a la bruja, pero su alma se oscurece. \"Justicia... ¿o venganza?\"",
+    "display": {
+      "x": 876,
+      "y": 2351
+    }
+  },
+  "Final_8_Equilibrio_del_Engano_": {
+    "text": "Finn traiciona a la bruja y quema el talismán. \"Nadie controla a un sátiro.\"",
+    "display": {
+      "x": 1462,
+      "y": 2342
+    }
+  },
+  "Final_X__Nombrame": {
+    "text": "La dríada en tono poderoso relata un acertijo corto en lengua de las sombras la cual Finn reconoce de su infancia. Logra deducir su nombre: Callendulla. Al enunciarlo la dríada queda libre y guía a Finn a un refugio para pasar la noche y continuar sus aventuras tras el descanso anhelado.",
+    "display": {
+      "x": 21,
+      "y": 2375
+    }
+  },
+  "Final_XX__Nueva_aventura_desbloqueada": {
+    "text": "Al romper el espejo, Finn escucha susurros muy intensos y de repente se ve transportado mágicamente a un paisaje compleamte desconocido. Su aventura continuará...",
+    "display": {
+      "x": 95,
+      "y": 2627
+    }
+  }
+}
