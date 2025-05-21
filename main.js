@@ -1,7 +1,7 @@
 let aventura = new Aventura("es");
 
 let gramatica = {
-    mensaje: ["<intro> <conector> <argumento>"],
+    base: ["<intro> <conector> <argumento>"],
     intro: ["La ley integral trans es importante para la <seccion>"],
     conector: ["de las personas trans porque"],
     seccion: ["salud", "educación", "vida", "identidad", "vivienda"],
@@ -14,12 +14,12 @@ let gramatica = {
     ]
   }
 
-  let texto = aventura.fijarGramatica(gramatica).probarGramatica(gramatica).expandirGramatica('mensaje');
+  let texto = aventura.fijarGramatica(gramatica).probarGramatica(gramatica).expandirGramatica('base');
 
   console.log(texto);
 
   aventura.cargarJSON("./modelo.json").then(gramatica => {
     aventura.fijarIgrama(gramatica);
-    let capas = aventura.expandirIgrama("mensaje");
-    aventura.mostrarIgrama(capas, "png");
+    let capas = aventura.expandirIgrama("base");
+    aventura.mostrarIgrama(capas, "png", memeShower);
   });
